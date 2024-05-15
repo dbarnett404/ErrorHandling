@@ -16,4 +16,10 @@ public class Register{
         people.add(person);
     }
 
+    public void printRegister() {
+        for (Person person : people) {
+            System.out.println(person);
+        }
+    }
+
 }

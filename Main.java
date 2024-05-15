@@ -5,8 +5,7 @@ public class Main {
         register.addPerson("John,Doe,18,jd123@sussex.ac.uk");
         register.addPerson("Jane,Smith,19,js125@sussex.ac.uk");
         register.addPerson("Alice,Johnson,20,aj345@sussex.ac.uk");
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+        register.printRegister();
+
     }
 }
